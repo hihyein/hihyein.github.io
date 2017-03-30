@@ -1,14 +1,95 @@
-h1 {
-    font-family: 'Baloo Bhaina';
-    font-size: 50px;
-    color: green;
+* {box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-size: 30px;
-    font-weight: bold;
+.container{
+  width: 960px;
+  position: relative;
+  margin: 0 auto;
 }
 
-li {
-    font-size: 25px;
+a:link, a:visited {
+  text-decoration: none;
+}
+
+nav{
+    height: 80px;
+  font-size: 30px;
+  background-color: black;
+  line-height: 80px;
+  color: white;
+  padding-left: 20px;
+  font-family: Bungee;
+}
+
+.btn{
+  line-height: 80px;
+  margin: 0;
+    float: right;
+}
+ul.btn > li{
+    font-size: 18px;
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+header{
+  padding-top: 20px;
+    height: 600px;
+  background: url("http://thisispaper.com/wp-content/uploads/2016/07/ralachoi_10.jpg");
+  background-position: center center;
+  background-attachment: scroll;
+  text-align: center;
+  font-family: Bungee;
+  background-size: cover;
+
+}
+h1{
+    font-size: 100px;
+  color: white;
+}
+header > p{
+    font-size: 20px;
+  font-family: Coming Soon;
+  
+}
+
+section{
+  height: 800px;
+  width: 960px;
+  background-color: #EDEAE3;
+  /*#FBF5DF*/
+  font-family: Coming Soon;
+}
+article{
+
+  float: left;
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 300px;
+  
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+article > p{
+    font-size: 18px;
+}
+
+footer{
+  color:white;
+  background-color: black;
+    height: 60px;
+    font-size: 18px;
+  text-align: center;
+  font-family: Bungee;
+  line-height: 60px;
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
