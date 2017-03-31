@@ -17,6 +17,7 @@ a:link, a:visited {
 }
 
 nav{
+  width:960px;
     height: 80px;
   font-size: 30px;
   background-color: black;
@@ -24,6 +25,7 @@ nav{
   color: white;
   padding-left: 20px;
   font-family: Bungee;
+  position:fixed;
 }
 
 .btn{
@@ -43,7 +45,7 @@ header{
     height: 600px;
   background: url("http://thisispaper.com/wp-content/uploads/2016/07/ralachoi_10.jpg");
   background-position: center center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   text-align: center;
   font-family: Bungee;
   background-size: cover;
@@ -89,7 +91,6 @@ footer{
     font-size: 18px;
   text-align: center;
   font-family: Bungee;
-  line-height: 60px;
-  padding-top: 5px;
-  padding-bottom: 20px;
+  margin: 0px;
+ 
 }
