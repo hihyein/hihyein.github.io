@@ -1,6 +1,7 @@
-* {box-sizing: border-box;
-    
+* {
+  box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -8,89 +9,123 @@ body {
 
 .container{
   width: 960px;
-  position: relative;
   margin: 0 auto;
 }
 
 a:link, a:visited {
   text-decoration: none;
 }
-
 nav{
-  width:960px;
-    height: 80px;
-  font-size: 30px;
+  height: 80px;
   background-color: black;
   line-height: 80px;
-  color: white;
-  padding-left: 20px;
   font-family: Bungee;
-  position:fixed;
+  color: white;
+  position: fixed;
+  margin: 0px;
+  width: 100%;
+}
+
+.main{
+  font-size: 30px;
+  margin: 0px;
+  margin-left: 30px;
+  float: left;
 }
 
 .btn{
-  line-height: 80px;
-  margin: 0;
-    float: right;
+  margin: 0px;
+  margin-right: 30px;
+  float: right;
 }
-ul.btn > li{
+
+.btn > li{
     font-size: 18px;
     float: left;
     list-style-type: none;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
+nav::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+
 header{
-  padding-top: 20px;
-    height: 600px;
-  background: url("http://thisispaper.com/wp-content/uploads/2016/07/ralachoi_10.jpg");
+  padding-top: 100px;
+  height: 600px;
+  background: url("./images/header.jpg");
   background-position: center center;
   background-attachment: fixed;
   text-align: center;
-  font-family: Bungee;
   background-size: cover;
 
 }
 h1{
-    font-size: 100px;
+  font-size: 100px;
+  font-family: Bungee;
   color: white;
+  margin: 0px;
+  margin-bottom: 20px;
 }
-header > p{
-    font-size: 20px;
+
+.comment{
+  font-size: 20px;
   font-family: Coming Soon;
   
 }
 
+
 section{
   height: 800px;
-  width: 960px;
   background-color: #EDEAE3;
   /*#FBF5DF*/
   font-family: Coming Soon;
 }
-article{
 
-  float: left;
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+article{
+  /*float: left;*/
   margin-left: 15px;
   margin-top: 30px;
   width: 300px;
-  
+  font-size: 18px;
 }
 img{
     width: 300px;
     height: 300px;
 }
+/*
 article > p{
     font-size: 18px;
 }
 
+section::after{
+  content: " ";
+  display: block;
+  clear: both;
+}*/
+
 footer{
-  color:white;
   background-color: black;
-    height: 60px;
-    font-size: 18px;
+  height: 60px;
+  margin: 0px;
+  line-height: 60px;
+}
+
+.ft{
+  margin: 0px;
+  color:white;
+  font-size: 18px;
   text-align: center;
   font-family: Bungee;
-  margin: 0px;
- 
 }
+
